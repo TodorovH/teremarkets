@@ -1,0 +1,41 @@
+:root {
+  --primary-section-bg-color: #8529cd;
+  --secondary-section-bg-color: #fff;
+  --third-section-bg-color: #3d1c4f;
+  --forth-section-bg-color: #af3031;
+  --fifth-section-bg-color: #ffb400;
+  --sixth-section-bg-color: #000;
+  --seventh-section-bg-color: #f0f2f5;
+  --eighth-section-bg-color: #ff7503;
+
+  --primary-footer-bg-color: #3d1c4f;
+  --secondary-footer-bg-color: #fff;
+
+  --primary-text-color: #000;
+  --secondary-text-color: #3d1c4f;
+  --third-text-color: #fff;
+
+  --primary-border-color: #bf6dff;
+}
+
+body {
+  background: var(--secondary-section-bg-color);
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* .separator--dotted {
+  background: linear-gradient(90deg, #fff1e5 2px, transparent 1%) 50%,
+    linear-gradient(#fff1e5 2px, transparent 1%) 50%, #000;
+  background-position: 0 0;
+  background-size: 3px 3px;
+  height: 12px;
+  width: 100%;
+} */
+
+li:has(.active) {
+  border-bottom: 5px solid var(--primary-border-color);
+}

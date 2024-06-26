@@ -1,0 +1,33 @@
+.privacyPolicyContainer {
+  max-width: 1200px;
+  width: 100%;
+  margin: 220px auto 50px;
+}
+
+.privacyPolicyContainer h3 {
+  color: #000;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .privacyPolicyContainer {
+    padding-inline: 10px;
+    width: 94%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .privacyPolicyContainer {
+    margin: 160px auto 50px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .privacyPolicyContainer {
+    margin: 130px auto 50px;
+  }
+
+  .privacyPolicyContainer h1 {
+    font-size: 22px;
+  }
+}

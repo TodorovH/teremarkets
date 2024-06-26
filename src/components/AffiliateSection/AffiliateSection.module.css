@@ -1,0 +1,79 @@
+.affiliateSectionContainer {
+  width: 100%;
+  min-height: 700px;
+  padding-top: clamp(3.5rem, 3rem + 2.5vw, 6rem);
+  background: var(--primary-section-bg-color);
+  color: var(--third-text-color);
+  position: relative;
+}
+
+.affiliateSectionInnerContainer {
+  max-width: 1600px;
+  width: 100%;
+  min-height: 440px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.affiliateSectionInnerContainer .affiliateSectionContentContainer,
+.affiliateSectionInnerContainer .affiliateSectionImgContainer {
+  width: 50%;
+  height: 100%;
+  display: grid;
+}
+
+.affiliateSectionInnerContainer
+  .affiliateSectionContentContainer
+  p:first-child {
+  font-size: 1.4vw;
+}
+
+.affiliateSectionInnerContainer
+  .affiliateSectionContentContainer
+  p:nth-child(2) {
+  font-size: 0.6vw;
+}
+
+.affiliateSectionInnerContainer
+  .affiliateSectionContentContainer
+  p:nth-child(2)
+  span {
+  font-weight: bold;
+}
+
+.affiliateSectionInnerContainer .affiliateSectionImgContainer img {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+.affiliateSectionInnerContainer .affiliateSectionButtonContainer {
+  width: 250px;
+  height: 50px;
+  margin: 30px 0;
+  border-radius: 25px;
+  background: var(--secondary-section-bg-color);
+}
+
+.affiliateSectionInnerContainer .affiliateSectionButtonContainer a {
+  width: 250px;
+  height: 50px;
+  margin: auto;
+  color: var(--primary-text-color);
+  text-decoration: none;
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 500px) {
+}

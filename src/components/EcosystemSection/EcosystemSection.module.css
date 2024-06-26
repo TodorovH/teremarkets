@@ -1,0 +1,91 @@
+.ecosystemSectionContainer {
+  width: 100%;
+  background: var(--secondary-section-bg-color);
+  display: flex;
+}
+
+.ecosystemSectionInnerContainer {
+  max-width: 1600px;
+  width: 100%;
+  min-height: 600px;
+  margin: 0 auto;
+  /* font-size: 1vw;
+    text-align: justify;
+    text-indent: 50px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.ecosystemSectionUpperContainer {
+  width: 100%;
+  min-height: 270px;
+  margin-top: 70px;
+  background: var(--forth-section-bg-color);
+  color: var(--third-text-color);
+  text-align: center;
+}
+
+.ecosystemSectionUpperContainer h3 {
+  font-size: 1vw;
+  font-weight: 100;
+  letter-spacing: 0.05vw;
+}
+
+.ecosystemSectionUpperContainer ul {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.ecosystemSectionUpperContainer li {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  text-align: center;
+}
+
+.ecosystemSectionUpperContainer li p {
+  margin: 0;
+  padding: 0;
+}
+
+.ecosystemSectionUpperContainer li p:nth-child(2) {
+  font-size: 1.5vw;
+  font-weight: 100;
+  margin-top: 7px;
+}
+
+.ecosystemSectionUpperContainer li p:nth-child(3) {
+  font-size: 0.6vw;
+}
+
+.ecosystemSectionBusinessLinesContainer {
+  width: 100%;
+  padding-block: 70px;
+}
+
+.ecosystemSectionBusinessLinesContainer ul {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.ecosystemSectionBusinessLinesContainer li {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  text-align: center;
+  gap: 25px;
+}
+
+.ecosystemSectionBusinessLinesContainer li img {
+  width: 20%;
+  margin: auto;
+}
+
+.ecosystemSectionBusinessLinesContainer li .businessLineTitle {
+  font-size: 0.7vw;
+  font-weight: 700;
+}

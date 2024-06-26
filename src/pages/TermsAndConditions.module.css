@@ -1,0 +1,33 @@
+.termsAndConditionsContainer {
+  max-width: 1200px;
+  width: 100%;
+  margin: 220px auto 50px;
+}
+
+.termsAndConditionsContainer h3 {
+  color: #000;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .termsAndConditionsContainer {
+    padding-inline: 10px;
+    width: 94%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .termsAndConditionsContainer {
+    margin: 160px auto 50px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .termsAndConditionsContainer {
+    margin: 130px auto 50px;
+  }
+
+  .termsAndConditionsContainer h1 {
+    font-size: 22px;
+  }
+}

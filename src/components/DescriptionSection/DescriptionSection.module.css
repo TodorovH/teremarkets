@@ -1,0 +1,17 @@
+.descriptionSectionContainer {
+  width: 100%;
+  background: var(--third-section-bg-color);
+  color: var(--third-text-color);
+  display: flex;
+}
+
+.descriptionSectionInnerContainer {
+  max-width: 1600px;
+  width: 100%;
+  min-height: 440px;
+  margin: 0 auto;
+  font-size: 1vw;
+  text-align: justify;
+  text-indent: 50px;
+  padding-block: 70px;
+}

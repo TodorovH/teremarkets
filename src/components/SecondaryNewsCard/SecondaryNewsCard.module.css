@@ -1,0 +1,65 @@
+.newsCardContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: grid;
+}
+
+.newsImgContainer {
+  height: 250px;
+}
+
+.newsImgContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.newsLink {
+  text-decoration: none;
+  color: #000;
+}
+
+.newsHeadLine {
+  width: 90%;
+  font-size: 30px;
+  padding: 5px 20px;
+  display: flex;
+  min-height: 40px;
+  white-space: wrap;
+  overflow: hidden;
+}
+
+.newsContent {
+  padding: 0 20px 20px;
+  width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.newsLinkContainer {
+  width: 90%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.newsLinkContainer a {
+  padding: 10px 50px;
+  background: #000;
+  color: #ffedd4;
+  border: 0 solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .newsHeadLine {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .newsHeadLine {
+    font-size: 18px;
+  }
+}

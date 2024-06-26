@@ -1,0 +1,87 @@
+.headerSectionContainer {
+  width: 100%;
+  min-height: 700px;
+  margin-top: 100px;
+  padding-top: clamp(3.5rem, 3rem + 2.5vw, 6rem);
+  background: var(--fifth-section-bg-color);
+  color: var(--third-text-color);
+  position: relative;
+}
+
+.headerSectionInnerContainer {
+  max-width: 1600px;
+  width: 100%;
+  min-height: 440px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.headerSectionContainer svg {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  margin-bottom: -1px;
+  margin-right: -2px;
+}
+
+.headerSectionContainer svg path {
+  fill: var(--secondary-section-bg-color);
+}
+
+.headerSectionInnerContainer .headerSectionContentContainer,
+.headerSectionInnerContainer .headerSectionImgContainer {
+  width: 50%;
+  height: 100%;
+  display: grid;
+}
+
+.headerSectionInnerContainer .headerSectionContentContainer {
+  padding-top: 50px;
+}
+
+.headerSectionInnerContainer .headerSectionContentContainer span:first-child {
+  margin-top: 100px;
+}
+
+.headerSectionInnerContainer .headerSectionContentContainer span {
+  font-size: 1.5vw;
+  /* font-family: fantasy; */
+}
+
+.headerSectionInnerContainer .headerSectionImgContainer img {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+.headerSectionInnerContainer .headerSectionButtonContainer {
+  width: 250px;
+  height: 50px;
+  margin: 70px 0;
+  border-radius: 25px;
+  background: var(--third-section-bg-color);
+}
+
+.headerSectionInnerContainer .headerSectionButtonContainer a {
+  width: 250px;
+  height: 50px;
+  margin: auto;
+  color: var(--third-text-color);
+  text-decoration: none;
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 500px) {
+}
